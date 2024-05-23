@@ -1,0 +1,296 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.header-content{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    background-image: url(../images/pf.jpg);
+}
+
+.cmpname {
+    margin-bottom: 10px;
+    font-style: italic;
+}
+
+.cmpname img {
+    width: 49%;
+    border-radius: 60px;
+}
+
+a {
+   color:rgb(98, 0, 255);
+   text-decoration:wavy;
+}
+
+ul {
+    text-align: center;
+}
+
+li {
+    margin: 20px;
+    display: inline-block;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.navbar a {
+    color:maroon;
+    text-decoration:none;
+    display:inline-block;
+}
+
+.navbar  {
+    text-align: center;
+    margin: 20px 0px;
+}
+
+.bg-img {
+    background-image: url(../images/bags.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    margin: 20px 0px;
+}
+
+.container {
+    margin: 20px;
+    padding: 20px;
+}
+
+.container h1 {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: oblique;
+    color:maroon;
+    margin-bottom: 20px;
+}
+
+.container p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: larger;
+    font-weight:bold;
+    color:black;
+    text-align: justify;
+}
+
+.btn{
+    background-color: deeppink;
+    margin: 40px auto;
+    padding: 10px;
+    display: block;
+    border-radius: 9px;
+    border: 1px solid lightgrey;
+}
+
+.customer_sec {
+    margin: 20px 0px;
+    padding: 20px 0px;
+}
+
+.customer h1 {
+    text-align: center;
+    color: salmon;
+}
+
+.quality {
+    display:flex;
+    margin: 20px auto;
+}
+
+.logo {
+    border-radius: 40px;
+    margin: 0px 20px;
+    padding: 20px;
+    width: calc(50% - -185px);
+}
+
+.logo {
+    color:crimson;
+    margin : 0px 30px;
+    text-decoration:wavy;
+}
+
+.logo_image img {
+    border-radius: 50%;
+    height: 130px;
+    width: 130px;
+    object-fit: cover;
+}
+
+.quality_name h2 {
+    text-align: left;
+    font-weight: bolder;
+    color: darkblue;
+    font-size: 18px;
+}
+.cr p {
+    text-align: center;
+    color: rgb(243, 247, 10);
+    font-family:'Roboto',sans-serif;
+    font-weight: bolder;
+    padding: 15px;
+    font-size: 14px;
+    word-spacing: 2px;
+}
+.cr {
+    background-color: crimson;
+
+}
+.ccf {
+    display:flex;
+    margin-bottom: 30px;
+}
+
+.sc {
+    width: 50%;
+}
+
+.sc img {
+    width: 635px;
+    margin-left: 40px;
+}
+
+.clown-fish {
+    display: inline-block;
+    font-size: larger;
+    font-style: italic;
+    color: darkmagenta;
+    width: 50%;
+}
+
+.clown-fish p {
+    font-size: x-large;
+    text-align: justify;
+    padding: 20px;
+    margin: 20px;
+}
+
+.nd {
+    display:flex;
+}
+
+.ni {
+    display: inline-block;
+    width: 50%;
+} 
+
+.nappa {
+    font-size: larger;
+    font-style: italic;
+    color: darkmagenta;
+    width: 50%;
+}
+
+.nappa p {
+    font-size: x-large;
+    text-align: justify;
+    padding: 20px;
+    margin: 20px;
+}
+
+.arrival {
+    margin: 20px 0px;
+    padding: 20px;
+}
+
+.arr_pic {
+    display: inline-block;
+}
+
+.arr_pic img {
+    margin: 20px;
+    padding: 20px;
+    width: 350px;
+    height: 400px;
+}
+
+.na h1 {
+    text-align:center;
+    font-size: large;
+    color: rgba(245, 8, 106, 0.945);
+    font-family: 'FontAwesome';
+    margin-bottom: 20px;
+}
+
+.add h1 {
+    text-align: center;
+    font-size: xx-large;
+    color:#fa0865;
+    font-family: cursive;
+}
+
+.mp {
+    margin: 20px;
+}
+ 
+video {
+    display: block;
+    margin: 20px auto;
+    width: 60%;
+}
+
+.good {
+    margin: 20px 0px;
+}
+
+.good_content {
+    padding: 20px;
+}
+
+.only h1 {
+    text-align: center;
+    font-weight: bold;
+    color: black;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.only p {
+    text-align: center;
+    color: darkblue;
+    font-size: x-large;
+    font-style: italic;
+    line-height: 1.5;
+}
+
+.tr-img img {
+    display: block;
+    width: 73%;
+    margin: 20px auto;
+}
+
+.social-icons {
+    padding:30px;
+    background-color:pink;
+   text-align: center;
+}
+ 
+.social-icons a {
+    color:black;
+   line-height:30px;
+   font-size:30px;
+   text-decoration:none;
+   
+}
+ 
+.social-icons a i {
+    line-height:30px;
+   font-size:30px;
+   transition: all 200ms ease-in;
+   transform: scale(1);
+   margin-right: 10px;
+}
+ 
+.social-icons a:hover i {
+   box-shadow: 0px 0px 150px pink;
+   z-index: 2;
+   transition: all 200ms ease-in;
+   transform: scale(1.5);
+}
